@@ -261,4 +261,7 @@
     <!-- Slow brightness animation ramp rate in brightness units per second-->
     <integer translatable="false" name="config_brightness_ramp_rate_slow">60</integer>
 
+    <!-- Radius of the software rounded corners at the bottom of the display
+         in its natural orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_bottom">100px</dimen>
 </resources>
