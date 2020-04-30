@@ -15,6 +15,10 @@ vendor/firmware/notif_Ardour.bin
 vendor/firmware/notif_Chic.bin
 vendor/firmware/ring_McLarn.bin
 
+# Audio
+vendor/lib/hw/audio.primary.msmnile.so
+vendor/lib64/hw/audio.primary.msmnile.so
+
 # Fingerprint
 vendor/lib/hw/goodix.fod.msmnile.so
 vendor/lib/fp_hal_extension.so
