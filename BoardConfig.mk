@@ -17,6 +17,7 @@ TARGET_SCREEN_DENSITY := 560
 # Kernel
 TARGET_KERNEL_CONFIG := kronic_defconfig
 TARGET_PREBUILT_RECOVERY_RAMDISK := $(DEVICE_PATH)/ramdisk-recovery.zip
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CLANG_VERSION := 6443078
 
 # Partitions
