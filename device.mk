@@ -37,6 +37,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list
 
+# Radio
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.vendor.radio.aosp_usr_pref_sel=true
+    
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
