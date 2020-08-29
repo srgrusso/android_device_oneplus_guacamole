@@ -19,6 +19,13 @@ $(call inherit-product-if-exists, vendor/gapps/config.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
+TARGET_GAPPS_OVERRIDE += \
+    GoogleDialer \
+    GoogleCamera \
+    Photos \
+    PrebuiltGmail \
+    NfcNci
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := bliss_guacamole
 PRODUCT_DEVICE := guacamole
