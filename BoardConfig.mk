@@ -16,6 +16,7 @@ TARGET_SCREEN_DENSITY := 560
 
 # Kernel
 TARGET_KERNEL_CONFIG := crdroid_defconfig
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
