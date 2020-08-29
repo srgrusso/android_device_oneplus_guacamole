@@ -20,4 +20,10 @@
     <dimen name="system_icons_keyguard_padding_end">12dp</dimen>
     <dimen name="status_bar_extra_padding">14dp</dimen>
     <dimen name="keyguard_carrier_text_margin">19dp</dimen>
+
+    <!-- Custom cutout overlay view sizes -->
+    <dimen name="config_customCutoutTopWidth">223.0px</dimen>
+    <dimen name="config_customCutoutTopHeight">223.0px</dimen>
+    <dimen name="config_customCutoutBottomWidth">223.0px</dimen>
+    <dimen name="config_customCutoutBottomHeight">223.0px</dimen>
 </resources>
