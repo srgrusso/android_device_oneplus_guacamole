@@ -22,7 +22,8 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    OnePlusCameraHelper
+    OnePlusCameraHelper \
+    GCam
 
 # Device init scripts
 PRODUCT_PACKAGES += \
