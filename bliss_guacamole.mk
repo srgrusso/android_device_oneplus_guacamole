@@ -17,6 +17,10 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1440
 
+#Apps
+PRODUCT_PACKAGES += \
+    Camera2
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := bliss_guacamole
 PRODUCT_DEVICE := guacamole
