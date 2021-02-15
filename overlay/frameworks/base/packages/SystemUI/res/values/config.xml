@@ -22,4 +22,6 @@
 <resources>
     <!-- Preferred refresh rate at keyguard, if supported by the display -->
     <integer name="config_keyguardRefreshRate">90</integer>
+    
+    <bool name="config_roundedCornerMultipleRadius">true</bool>
 </resources>
