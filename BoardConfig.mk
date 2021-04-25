@@ -14,6 +14,7 @@ TARGET_SCREEN_DENSITY := 560
 # Kernel
 TARGET_KERNEL_CONFIG := dora_defconfig
 TARGET_KERNEL_CLANG_VERSION := proton
+TARGET_KERNEL_ADDITIONAL_FLAGS += LD=ld.lld DTC_EXT=$(shell pwd)/out/host/linux-x86/bin/dtc
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
