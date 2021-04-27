@@ -357,4 +357,7 @@
          rates are available from hardware composer. Only has an effect if the value is
          non-zero. -->
     <integer name="config_defaultPeakRefreshRate">90</integer>
+
+    <!-- FOD icon dim-->
+    <bool name="config_targetUsesInKernelDimming">true</bool>
 </resources>
