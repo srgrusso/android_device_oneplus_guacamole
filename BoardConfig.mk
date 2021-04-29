@@ -15,10 +15,8 @@ WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY ?= true
 TARGET_SCREEN_DENSITY := 560
 
 # Kernel
-TARGET_KERNEL_CONFIG := dora_defconfig
-TARGET_KERNEL_CLANG_VERSION := proton
+TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
 TARGET_KERNEL_ADDITIONAL_FLAGS := AS=llvm-as AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip
-TARGET_KERNEL_ADDITIONAL_FLAGS += LD=ld.lld DTC_EXT=$(shell pwd)/out/host/linux-x86/bin/dtc
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
