@@ -9,7 +9,7 @@
    "remote":      "github",
    "repository":  "BlissRoms-Devices/android_kernel_oneplus_sm8150",
    "target_path": "kernel/oneplus/sm8150",
-   "revision":    "r-dora"
+   "revision":    "r"
  },
   {
    "remote":      "github",
@@ -22,5 +22,11 @@
    "repository":  "srgrusso/android_device_oneplus_common",
    "target_path": "device/oneplus/common",
    "revision":    "bliss-r"
+  },
+  {
+   "remote":      "gitlab",
+   "repository":  "crdroidandroid/android_vendor_oneplus_apps",
+   "target_path": "vendor/oneplus/apps",
+   "revision":    "11.0"
   }
 ]
