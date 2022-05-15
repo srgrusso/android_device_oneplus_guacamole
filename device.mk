@@ -12,7 +12,7 @@ $(call inherit-product, vendor/oneplus/guacamole/guacamole-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-krypton
+    $(LOCAL_PATH)/overlay-bliss
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -28,9 +28,6 @@ PRODUCT_PACKAGES += \
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom
-
-# Mark as official build
-OFFICIAL_BUILD := true
     
 # Wifi Overlay
 PRODUCT_PACKAGES += \
