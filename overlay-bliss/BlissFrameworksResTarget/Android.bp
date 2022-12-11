@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "EvolutionSettingsResTarget",
-    device_specific: true,
+    name: "BlissFrameworksResTarget",
+    vendor: true,
 }

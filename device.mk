@@ -25,9 +25,9 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     ApertureResTarget \
-    EvolutionFrameworksResTarget \
-    EvolutionSettingsResTarget \
-    EvolutionSystemUIResTarget \
+    BlissFrameworksResTarget \
+    BlissSettingsResTarget \
+    BlissSystemUIResTarget \
     OPlusExtrasResTarget \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
