@@ -1,0 +1,44 @@
+[
+ {
+   "remote":      "github",
+   "repository":  "BlissRoms-Devices/android_device_oneplus_sm8150-common",
+   "target_path": "device/oneplus/sm8150-common",
+   "revision":    "typhoon"
+  },
+ {
+   "remote":      "github",
+   "repository":  "BlissRoms-Devices/android_kernel_oneplus_sm8150",
+   "target_path": "kernel/oneplus/sm8150",
+   "revision":    "typhoon"
+ },
+  {
+   "remote":      "gitlab",
+   "repository":  "srgrusso/proprietary_vendor_oneplus_guacamole",
+   "target_path": "vendor/oneplus/guacamole",
+   "revision":    "bliss-t"
+  },
+  {
+   "remote":      "gitlab",
+   "repository":  "srgrusso/proprietary_vendor_oneplus_sm8150-common",
+   "target_path": "vendor/oneplus/sm8150-common",
+   "revision":    "bliss-t"
+  },
+  {
+   "remote":      "github",
+   "repository":  "BlissRoms-Devices/android_hardware_oplus",
+   "target_path": "hardware/oplus",
+   "revision":    "typhoon"
+  },
+{
+   "remote":      "gitlab",
+   "repository":  "srgrusso/vendor_oplus_camera",
+   "target_path": "vendor/oneplus/camera",
+   "revision":    "bliss-t-op7pro"
+  },
+  {
+   "remote":      "github",
+   "repository":  "BlissRoms-Devices/android_hardware_oplus",
+   "target_path": "hardware/oplus",
+   "revision":    "bliss-t"
+  }
+]
