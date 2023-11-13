@@ -11,11 +11,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from guacamole device
 $(call inherit-product, device/oneplus/guacamole/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Bliss stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+
+TARGET_BOOT_ANIMATION_RES := 1440
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_guacamole
+PRODUCT_NAME := bliss_guacamole
 PRODUCT_DEVICE := guacamole
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := GM1911
@@ -30,5 +32,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus7Pro-user 12 SKQ1.211113.001 P.202302151913 release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
-
-BUILD_FINGERPRINT := OnePlus/OnePlus7Pro/OnePlus7Pro:12/SKQ1.211113.001/P.202302151913:user/release-keys
